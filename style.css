@@ -1,0 +1,42 @@
+body {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    padding: 10px 30px;
+    color: white;
+    background-color: #151515;
+}
+
+body p {
+    color: #FFB964;
+}
+
+body h1, h2, h3 {
+    color: #447799;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: #8FBFDC;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.content {
+    padding: 20px;
+}
+
+hr {
+    border-color: #888888;
+}
+
+#copyright {
+    font-size: 12px;
+    color: #CF6A4C;
+    position: center;
+    padding-top: 20px;
+    text-align: center;
+}
