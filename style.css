@@ -11,12 +11,46 @@ body {
     height: 95%;
 }
 
+.content img {
+    display: inline-block;
+    border:2px ridge #888888;
+}
+
 body p {
     color: #FFB964;
+    line-height: 20px;
+}
+
+p a {
+    color: #CF6A4C;
+    text-decoration: none;
+    font-style: italic;
+}
+
+p a:hover {
+    text-decoration: underline;
 }
 
 body h1, h2, h3 {
     color: #447799;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+ul li {
+    padding: 4px 0px;
+}
+
+ul li a {
+    color: #CF6A4C;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
 }
 
 .nav {
@@ -44,6 +78,6 @@ hr {
     font-size: 12px;
     color: #CF6A4C;
     position: center;
-    padding-top: 20px;
+    padding: 20px;
     text-align: center;
 }
