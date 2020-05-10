@@ -1,8 +1,14 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     padding: 10px 30px;
     color: white;
     background-color: #151515;
+    height: 95%;
 }
 
 body p {
@@ -27,6 +33,7 @@ body h1, h2, h3 {
 
 .content {
     padding: 20px;
+    min-height: 80%;
 }
 
 hr {
